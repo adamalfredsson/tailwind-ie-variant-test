@@ -1,1 +1,22 @@
-.table{display:table}.hidden{display:none}@media (min-width:768px){.md_block{display:block}.md_hidden{display:none}@media (-ms-high-contrast:none),screen and (-ms-high-contrast:active){.md_ie_block{display:block}.md_ie_hidden{display:none}}}
+.table {
+  display: table;
+}
+.hidden {
+  display: none;
+}
+@media (min-width: 768px) {
+  .md_block {
+    display: block;
+  }
+  .md_hidden {
+    display: none;
+  }
+  @media (-ms-high-contrast: none), screen and (-ms-high-contrast: active) {
+    .md_ie_block {
+      display: block;
+    }
+    .md_ie_hidden {
+      display: none;
+    }
+  }
+}
