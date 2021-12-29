@@ -1,0 +1,22 @@
+.table {
+  display: table;
+}
+.hidden {
+  display: none;
+}
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+  .md\:hidden {
+    display: none;
+  }
+  @media (-ms-high-contrast: none), screen and (-ms-high-contrast: active) {
+    .md\:ie\:block {
+      display: block;
+    }
+    .md\:ie\:hidden {
+      display: none;
+    }
+  }
+}

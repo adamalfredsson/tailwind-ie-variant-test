@@ -2,16 +2,14 @@
   "name": "ie-variant-test",
   "version": "1.0.0",
   "description": "",
-  "source": "src/pages/index.pug",
+  "source": "src/pages/index.html",
   "scripts": {
-    "start": "rimraf dist && parcel 'index.pug'",
-    "build": "rimraf build && parcel build 'index.pug' --no-source-maps --target default --dist-dir build"
+    "start": "rimraf dist && parcel 'index.html'",
+    "build": "rimraf build && parcel build 'index.html' --no-source-maps --target default --dist-dir build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-pug": "^2.0.1",
-    "@prettier/plugin-pug": "^1.19.0",
     "autoprefixer": "^10.4.0",
     "parcel": "^2.0.1",
     "postcss": "^8.3.11",

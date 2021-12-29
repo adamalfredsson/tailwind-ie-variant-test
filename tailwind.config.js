@@ -7,9 +7,8 @@ module.exports = {
     defaultLineHeights: true,
     removeDeprecatedGapUtilities: true,
   },
-  purge: ["index.pug"],
+  purge: ["index.html"],
   darkMode: false, // or 'media' or 'class'
-  separator: "_",
   variants: {
     display: ({ after }) => after(["ie"]),
   },
